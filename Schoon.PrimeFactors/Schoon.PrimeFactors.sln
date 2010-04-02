@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{621CAC5E-AD5A-4226-9268-B222ABA1C3B3}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Schoon.PrimeFactors.vsmdi = Schoon.PrimeFactors.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schoon.PrimeFactors", "Schoon.PrimeFactors\Schoon.PrimeFactors.csproj", "{B381A65B-86F6-4086-916F-579F2389E160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schoon.PrimeFactors.Test", "Schoon.PrimeFactors.Test\Schoon.PrimeFactors.Test.csproj", "{1D7558E3-6832-414E-89BD-BC05610C03D7}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Schoon.PrimeFactors.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B381A65B-86F6-4086-916F-579F2389E160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B381A65B-86F6-4086-916F-579F2389E160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B381A65B-86F6-4086-916F-579F2389E160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B381A65B-86F6-4086-916F-579F2389E160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7558E3-6832-414E-89BD-BC05610C03D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7558E3-6832-414E-89BD-BC05610C03D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7558E3-6832-414E-89BD-BC05610C03D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7558E3-6832-414E-89BD-BC05610C03D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
